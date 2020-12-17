@@ -1,7 +1,7 @@
 <template>
   <div class="home">
      <div id='canvas'></div>
-     <button @click='handleOpen'>開始</button>
+     <button @click='handleOpen'>开始</button>
       <button @click='handleClose'>停止</button>
   </div>
 </template>
