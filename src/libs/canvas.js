@@ -2,7 +2,8 @@ const WINDOW_SIZE = {
     W: 1920,
     H: 1080
 }
-const IMAGE_URL = './static/starwar'
+const IMAGE_URL = './static/images'
+const CARURL ='./static/images/car'
 class Fire {
     constructor(HID, origin, aim, window) {
         this.origin = origin
@@ -18,7 +19,7 @@ class Fire {
     init() {
         let t = this
         t.createHTML()
-        t.images.src = `${IMAGE_URL}/4.png`
+        t.images.src = `${CARURL}/1.png`
         console.log(t.images.width, t.images.height)
         t.ctx.fillStyle = '#ddd'
         t.ctx.font = '22px Helvetica Neue'
